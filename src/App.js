@@ -11,7 +11,11 @@ function App() {
     e.preventDefault();
     if (email) {
       setIsSubmitted(true);
-      // Here you would typically send the email to your backend
+      // Send email using mailto link
+      const subject = 'adsperform waitlist';
+      const body = `New waitlist signup: ${email}`;
+      const mailtoLink = `mailto:antoine.levy27@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(mailtoLink);
       console.log('Email submitted:', email);
     }
   };
