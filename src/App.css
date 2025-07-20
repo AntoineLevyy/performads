@@ -585,3 +585,27 @@
     padding: 1rem;
   }
 } 
+
+.agency-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.agency-features-grid .wide-feature {
+  grid-column: 1 / -1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .agency-features-grid {
+    grid-template-columns: 1fr;
+  }
+  .agency-features-grid .wide-feature {
+    grid-column: auto;
+  }
+} 
