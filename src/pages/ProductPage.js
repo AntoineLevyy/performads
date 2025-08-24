@@ -60,11 +60,6 @@ function ProductPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <div className="badge">
-              <Star size={16} />
-              <span>Revolutionary Ad Platform</span>
-            </div>
-            
             <h1 className="hero-title">
               Create, Launch and Optimise Ads in 1 click
             </h1>
@@ -73,7 +68,14 @@ function ProductPage() {
               The future of advertising is here. adsperform combines AI-powered optimization, 
               real-time analytics, and seamless campaign management in one powerful platform.
             </p>
-
+            <a href="/budgetallocator" className="btn-primary" style={{ margin: '2rem 0 1.5rem 0', display: 'inline-block' }}>
+              Start for Free
+            </a>
+            <div className="badge">
+              <Star size={16} />
+              <span>Revolutionary Ad Platform</span>
+            </div>
+            
             <div className="hero-stats">
               <div className="stat">
                 <span className="stat-number">10x</span>
