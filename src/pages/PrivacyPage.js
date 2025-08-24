@@ -65,9 +65,9 @@ const PrivacyPage = () => {
       <div data-custom-class="body">
         <div><strong><span style={{fontSize: '26px'}}><span data-custom-class="title"><h1>PRIVACY NOTICE</h1></span></span></strong></div>
         <div><span style={{color: 'rgb(127, 127, 127)'}}><strong><span style={{fontSize: '15px'}}><span data-custom-class="subtitle">Last updated August 24, 2025</span></span></strong></span></div>
-        <div><br></div>
-        <div><br></div>
-        <div><br></div>
+        <div><br /></div>
+        <div><br /></div>
+        <div><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{color: 'rgb(127, 127, 127)'}}>
@@ -109,8 +109,8 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <strong><span style={{fontSize: '15px'}}><span data-custom-class="heading_1"><h2>SUMMARY OF KEY POINTS</h2></span></span></strong>
@@ -134,7 +134,7 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -150,7 +150,7 @@ const PrivacyPage = () => {
           <span data-custom-class="body_text">.</span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -160,7 +160,7 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -170,7 +170,7 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -186,7 +186,7 @@ const PrivacyPage = () => {
           <span data-custom-class="body_text">.</span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -204,7 +204,7 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -220,7 +220,7 @@ const PrivacyPage = () => {
           <span data-custom-class="body_text">.</span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -236,7 +236,7 @@ const PrivacyPage = () => {
           <span data-custom-class="body_text">.</span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -254,7 +254,7 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -270,8 +270,8 @@ const PrivacyPage = () => {
           </span>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         <div id="toc" style={{lineHeight: '1.5'}}>
           <span style={{fontSize: '15px'}}>
@@ -405,8 +405,8 @@ const PrivacyPage = () => {
           </a>
         </div>
         
-        <div style={{lineHeight: '1.5'}}><br></div>
-        <div style={{lineHeight: '1.5'}}><br></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
+        <div style={{lineHeight: '1.5'}}><br /></div>
         
         {/* Additional sections would continue here - this is a simplified version for brevity */}
         
