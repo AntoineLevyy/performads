@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import '../App.css';
 
-const PrivacyPage = () => {
+const AboutPage = () => {
   return (
     <div className="App">
       <div className="gradient-bg">
@@ -23,10 +23,12 @@ const PrivacyPage = () => {
               style={{ maxHeight: '64px', width: 'auto' }}
             />
             <span className="ml-4 text-6xl font-black" style={{ 
-              color: '#1f2937',
-              fontFamily: 'Playfair Display, Georgia, serif',
-              fontWeight: '700',
-              letterSpacing: '-0.01em'
+              background: 'linear-gradient(135deg, #1e40af, #7c3aed)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              fontFamily: 'Poppins, sans-serif',
+              fontWeight: '900'
             }}>AdsPerform</span>
           </Link>
           
@@ -46,7 +48,7 @@ const PrivacyPage = () => {
         </div>
       </nav>
 
-      <section className="privacy-content" style={{
+      <section className="about-content" style={{
         padding: '8rem 2rem 6rem 2rem',
         minHeight: '100vh',
         width: '100%',
@@ -68,14 +70,14 @@ const PrivacyPage = () => {
               fontFamily: 'Playfair Display, Georgia, serif',
               letterSpacing: '-0.01em'
             }}>
-              Privacy Policy
+              About AdsPerform
             </h1>
             <p style={{
               fontSize: '1.25rem',
               color: '#6b7280',
               lineHeight: '1.6'
             }}>
-              Last updated August 24, 2025
+              We're on a mission to simplify performance marketing for DTC brands.
             </p>
           </motion.div>
           
@@ -85,21 +87,14 @@ const PrivacyPage = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ textAlign: 'left' }}
           >
-            <div style={{
-              background: 'rgba(255, 255, 255, 0.8)',
-              borderRadius: '1rem',
-              padding: '3rem',
-              boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-              backdropFilter: 'blur(10px)'
-            }}>
               <h2 style={{
                 fontSize: '2rem',
                 fontWeight: '700',
                 color: '#1f2937',
                 marginBottom: '2rem',
-                fontFamily: 'Playfair Display, sans-serif'
+                fontFamily: 'Poppins, sans-serif'
               }}>
-                Privacy Notice
+                Our Story
               </h2>
               
               <p style={{
@@ -108,23 +103,8 @@ const PrivacyPage = () => {
                 lineHeight: '1.7',
                 marginBottom: '2rem'
               }}>
-                This Privacy Notice for AdsPerform ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
+                Founded in 2024, AdsPerform was born from the frustration of managing complex advertising campaigns across multiple platforms. We saw that DTC brands were spending more time on manual tasks and less time on what matters most - growing their business and serving their customers.
               </p>
-              
-              <ul style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem',
-                paddingLeft: '2rem'
-              }}>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  Visit our website at <a href="http://www.adsperform.com" target="_blank" rel="noopener noreferrer" style={{ color: '#3b82f6', textDecoration: 'none' }}>http://www.adsperform.com</a> or any website of ours that links to this Privacy Notice
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  Engage with us in other related ways, including any sales, marketing, or events
-                </li>
-              </ul>
               
               <p style={{
                 fontSize: '1.1rem',
@@ -132,7 +112,7 @@ const PrivacyPage = () => {
                 lineHeight: '1.7',
                 marginBottom: '2rem'
               }}>
-                <strong>Questions or concerns? </strong>Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services.
+                Our platform streamlines the entire performance marketing workflow, from creative insights and campaign launch to optimization and reporting. We believe that with the right tools, every brand can achieve exceptional advertising performance without the complexity.
               </p>
               
               <h2 style={{
@@ -141,9 +121,9 @@ const PrivacyPage = () => {
                 color: '#1f2937',
                 marginBottom: '2rem',
                 marginTop: '3rem',
-                fontFamily: 'Playfair Display, sans-serif'
+                fontFamily: 'Poppins, sans-serif'
               }}>
-                Summary of Key Points
+                Our Mission
               </h2>
               
               <p style={{
@@ -152,61 +132,7 @@ const PrivacyPage = () => {
                 lineHeight: '1.7',
                 marginBottom: '2rem'
               }}>
-                <strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>Do we process any sensitive personal information?</strong> Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>How do we keep your information safe?</strong> We have adequate organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
-              </p>
-              
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                <strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+                To democratize performance marketing by making it accessible, efficient, and profitable for DTC brands of all sizes. We're building the tools that will help brands focus on what they do best - creating amazing products and experiences for their customers.
               </p>
               
               <h2 style={{
@@ -215,23 +141,80 @@ const PrivacyPage = () => {
                 color: '#1f2937',
                 marginBottom: '2rem',
                 marginTop: '3rem',
-                fontFamily: 'Playfair Display, sans-serif'
+                fontFamily: 'Poppins, sans-serif'
               }}>
-                Contact Information
+                Our Values
               </h2>
               
-              <p style={{
-                fontSize: '1.1rem',
-                color: '#4b5563',
-                lineHeight: '1.7',
-                marginBottom: '2rem'
-              }}>
-                If you have questions about this Privacy Notice, please contact us at{' '}
-                <a href="mailto:contact@adsperform.com" style={{ color: '#3b82f6', textDecoration: 'none' }}>
-                  contact@adsperform.com
-                </a>
-              </p>
-            </div>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginTop: '2rem' }}>
+                <div>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '600',
+                    color: '#1e40af',
+                    marginBottom: '1rem'
+                  }}>
+                    Simplicity
+                  </h3>
+                  <p style={{
+                    color: '#6b7280',
+                    lineHeight: '1.6'
+                  }}>
+                    We believe the best tools are the ones you don't have to think about. Our platform is designed to be intuitive and efficient.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '600',
+                    color: '#1e40af',
+                    marginBottom: '1rem'
+                  }}>
+                    Performance
+                  </h3>
+                  <p style={{
+                    color: '#6b7280',
+                    lineHeight: '1.6'
+                  }}>
+                    Everything we build is focused on driving real results. We measure success by your success.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '600',
+                    color: '#1e40af',
+                    marginBottom: '1rem'
+                  }}>
+                    Innovation
+                  </h3>
+                  <p style={{
+                    color: '#6b7280',
+                    lineHeight: '1.6'
+                  }}>
+                    We're constantly exploring new technologies and approaches to stay ahead of the curve.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '600',
+                    color: '#1e40af',
+                    marginBottom: '1rem'
+                  }}>
+                    Partnership
+                  </h3>
+                  <p style={{
+                    color: '#6b7280',
+                    lineHeight: '1.6'
+                  }}>
+                    We succeed when our customers succeed. We're here to be your long-term partner in growth.
+                  </p>
+                </div>
+              </div>
           </motion.div>
         </div>
       </section>
@@ -276,7 +259,7 @@ const PrivacyPage = () => {
                 <span className="text-gray-400 text-sm">Follow us:</span>
                 <div className="social-links">
                   <a href="https://www.instagram.com/ads_perform/" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                    📸
+                    📷
                   </a>
                   <a href="https://www.facebook.com/profile.php?id=61578346028005" className="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
                     📘
@@ -297,4 +280,4 @@ const PrivacyPage = () => {
   );
 };
 
-export default PrivacyPage; 
+export default AboutPage; 
